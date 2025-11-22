@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    font-family:cursive;
+
+}
+.topnav{
+    overflow:hidden;
+    background-color:darksalmon;
+
+}
+.topnav a{
+    float:left;
+    color:cornflowerblue;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:20px;
+}
+.topnav a:hover{
+    background-color:aquamarine;
+    color:black;
+}
+.topnav a.active{
+    background-color: aqua;
+    color:white;
+}
+
+.pimg1{
+    position:relative;
+    opacity:0.70;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1
+{
+    background-image: url("scenery.jpeg");
+    min-height:100%;
+}
+.section
+{
+    background-color: bisque;
+    color:cadetblue;
+}
+.section-dark{
+    background-color:darkmagenta ;
+    color:white;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+.pimg2 {
+    position: relative;
+    opacity: 0.70;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg2 {
+    background-image: url("switzerland.png");
+    min-height: 100%;
+}
+
+.section {
+    background-color: bisque;
+    color: cadetblue;
+}
+
+.section-dark {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
